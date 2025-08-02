@@ -1,22 +1,20 @@
-# [PCthread](https://pcthread.blogspot.com/) | Arsip gambar
+# 🧩 [PCTHREAD](https://pcthread.blogspot.com) ICON PACK (SVG)
 
-Menggunakan format modern seperti **WebP** dan kompresi yang tepat sangat krusial untuk meningkatkan performa website. Gambar besar memperlambat loading, boros bandwidth, dan menurunkan skor SEO.
+Free Custom SVG.
 
-## Keunggulan WebP
-• Ukuran lebih kecil dibanding JPEG/PNG dengan kualitas serupa  
-• Mendukung transparansi & animasi  
-• Kompatibel dengan browser modern (Chrome, Firefox, Edge, dll)
+## 📐 Specs
+- Canvas: **600×600px**
+- Vector: **580×580px**
+- Margin: **10px**
+- Format: Pure SVG, no external fonts
+- Perfect for blogs, CMS, and fallback images
 
-## Manfaat Kompresi
-• Loading halaman lebih cepat  
-• Penggunaan data lebih efisien  
-• Skor PageSpeed dan Core Web Vitals meningkat  
-• Pengalaman pengguna lebih baik, terutama di perangkat mobile
+## 📎 Usage
 
-## Rekomendasi
-• Gunakan format **.webp** untuk semua gambar  
-• Pilih kompresi **lossy** atau **lossless** sesuai kebutuhan visual  
-• Gunakan tools seperti [Squoosh](https://squoosh.app), [TinyPNG](https://tinypng.com), atau plugin otomatis (misalnya ImageOptim, imagemin)
+```html
+<img src="https://annoercom.github.io/pcthread/icons/GitHub.svg" width="32" height="32" alt="GitHub SVG icon Custom" />
+```
 
-## Kesimpulan
-**Optimasi gambar = website lebih cepat, ringan, dan disukai pengguna & mesin pencari.**
+---
+
+🛠️ Designed by [@annoermedia-PCthread](https://pcthread.blogspot.com) – 100% handcrafted for clean UI.
