@@ -1,1 +1,66 @@
 
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Author Profile</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; background: #f9f9f9; color: #222; }
+    header { text-align: center; margin-bottom: 2rem; }
+    header img { width: 150px; border-radius: 50%; margin-bottom: 1rem; }
+    h1 { margin-bottom: 0.2rem; }
+    .bio { font-style: italic; color: #555; margin-bottom: 2rem; }
+    section { margin-bottom: 1.5rem; }
+    section h2 { border-bottom: 2px solid #444; padding-bottom: 0.3rem; margin-bottom: 0.8rem; }
+    ul { padding-left: 1.2rem; }
+    a { color: #0066cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<div id="author-profile"></div>
+
+<script>
+  async function loadAuthor() {
+    const res = await fetch('https://cdn.jsdelivr.net/gh/annoercom/pcthread/schema/author-khaerudin-noer.json');
+    const data = await res.json();
+
+    const container = document.getElementById('author-profile');
+
+    container.innerHTML = `
+      <header>
+        <img src="${data.photo}" alt="Foto ${data.name}" loading="lazy" />
+        <h1>${data.name}</h1>
+        <p class="bio">${data.bio}</p>
+      </header>
+
+      <section>
+        <h2>Profil Singkat</h2>
+        <p>${data.profile}</p>
+      </section>
+
+      <section>
+        <h2>Keahlian</h2>
+        <ul>
+          ${data.skills.map(skill => `<li>${skill}</li>`).join('')}
+        </ul>
+      </section>
+
+      <section>
+        <h2>Kontak & Media Sosial</h2>
+        <ul>
+          ${data.socials.map(s => `<li><a href="${s.url}" target="_blank" rel="noopener noreferrer">${s.name}</a></li>`).join('')}
+        </ul>
+      </section>
+    `;
+  }
+
+  loadAuthor().catch(e => {
+    document.getElementById('author-profile').innerText = 'Gagal load author data bro.';
+    console.error(e);
+  });
+</script>
+
+</body>
+</html>
