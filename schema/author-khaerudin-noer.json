@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Khaerudin Noer",
+  "url": "https://annoercom.github.io/pcthread/author/khaerudin-noer.html",
+  "image": "https://annoercom.github.io/pcthread/khaerudin-noer-profile.webp",
+  "jobTitle": "Teknisi Komputer, Desainer Grafis, Blogger",
+  "description": "Khaerudin Noer – Teknisi komputer, desainer grafis, dan penulis konten teknologi.",
+  "sameAs": [
+    "https://github.com/annoercom",
+    "https://twitter.com/USERNAME",
+    "https://www.linkedin.com/in/USERNAME/"
+  ]
+}
