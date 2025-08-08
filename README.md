@@ -20,7 +20,6 @@ Or embed inline using `<svg>` if you prefer full control over styling.
 - Free to use, remix, or modify with proper credit.  
 Proudly designed with ❤️ and a bit of CorelDRAW magic.
 ---
-- [Design Preview1](https://annoercom.github.io/pcthread/PCthread%20Icon%20Design%20Preview.webp)
-- [Design Preview2](https://annoercom.github.io/pcthread/Whatsapp%20Icon%20Design%20Preview.webp)
+- [Design Preview](https://pcthread.blogspot.com/)
 
 🛠️ Designed by [@annoermedia-PCthread](https://pcthread.blogspot.com) – 100% handcrafted for clean UI.
