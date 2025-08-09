@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('https://cdn.jsdelivr.net/gh/annoercm/pcthread/author/fonts/Roboto-Italic-VariableFont.woff2') format('woff2-variations'),
+       url('https://cdn.jsdelivr.net/gh/annoercm/pcthread/author/fonts/Roboto-Italic-VariableFont.woff') format('woff');
+  font-weight: 400 900;
+  font-style: italic;
+  font-display: swap;
+}
