@@ -1,16 +1,28 @@
-/* ---- ROBOTO 400 (REGULAR) ---- */
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 400; /* Ini adalah ketebalan normal */
-  font-display: swap; /* Penting untuk optimasi LCP */
+  font-weight: 500; 
+  font-display: swap; 
   src: url('https://cdn.jsdelivr.net/gh/annoercom/pcthread/font/roboto-regular.woff2') format('woff2');
 }
-/* ---- ROBOTO 800 (EKSTRA-BOLD) ---- */
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 800; /* Ini adalah ketebalan ekstra-tebal */
-  font-display: swap; /* Penting untuk optimasi LCP */
+  font-weight: 600; 
+  font-display: swap; 
+  src: url('https://cdn.jsdelivr.net/gh/annoercom/pcthread/font/roboto-regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700; 
+  font-display: swap; 
+  src: url('https://cdn.jsdelivr.net/gh/annoercom/pcthread/font/roboto-regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 800; 
+  font-display: swap; 
   src: url('https://cdn.jsdelivr.net/gh/annoercom/pcthread/font/roboto-800.woff2') format('woff2');
 }
