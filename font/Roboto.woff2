@@ -17,7 +17,7 @@
   font-style: normal;
   font-weight: 700; 
   font-display: swap; 
-  src: url('https://cdn.jsdelivr.net/gh/annoercom/pcthread/font/roboto-regular.woff2') format('woff2');
+  src: url('https://cdn.jsdelivr.net/gh/annoercom/pcthread/font/roboto-700.woff2') format('woff2');
 }
 @font-face {
   font-family: "Roboto", sans-serif;
