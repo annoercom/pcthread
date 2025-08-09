@@ -1,1 +1,23 @@
 
+/* File: styles/main.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; /* Default weight */
+}
+
+h1 {
+  font-weight: 700; /* Bold */
+}
+
+h2 {
+  font-weight: 600; /* Semi-bold */
+}
+
+strong, b {
+  font-weight: 800; /* Extra-bold */
+}
+
+em, i {
+  font-style: italic;
+}
